@@ -877,10 +877,109 @@ main {
   padding-left: 80px;
   display: flex;
   align-items: center;
-  gap: 662px;
 }
 .all2 .navitem3 {
   padding-top: 166px;
+  padding-left: 662px;
+}
+
+.links {
+  color: #2a2c1f;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+
+.por {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.partx1 {
+  display: flex;
+  justify-content: center;
+  gap: 120px;
+}
+
+.footer {
+  padding-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  gap: 130px;
+  padding-bottom: 64px;
+}
+
+.partx2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.partx2 .nnn {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.partx2 p {
+  color: #2a2c1f;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+.partx2 .gfg {
+  color: #65665c;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+.partx2 #ter {
+  outline: none;
+  padding-top: 16px;
+  padding-left: 14px;
+  padding-bottom: 16px;
+  max-width: 241px;
+  border-radius: 6px;
+  border: 1px solid #e7e8e3;
+  background: #fff;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.08);
+}
+.partx2 .lll {
+  display: flex;
+}
+.partx2 .lll p {
+  color: #65665c;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 150% */
+}
+
+.lll {
+  display: flex;
+}
+.lll p {
+  color: #65665c;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 150% */
+}
+
+.all4 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #f5f5f2;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 @media (max-width: 480px) {
@@ -982,8 +1081,8 @@ main {
     flex-wrap: wrap;
   }
   .paw1 {
-    top: 935px;
-    left: 215px;
+    top: 1078px;
+    left: 175px;
   }
   .part1 {
     max-width: 720px;
@@ -1005,5 +1104,27 @@ main {
     padding-right: 0;
     justify-content: center;
     align-items: center;
+  }
+  .ma {
+    padding-left: 0;
+    justify-content: start;
+    align-items: start;
+  }
+  .all2 {
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .all2 .navitem3 {
+    padding-top: 20px;
+    padding-left: 0;
+  }
+  .footer {
+    flex-wrap: wrap;
+  }
+  .partx1 {
+    flex-wrap: wrap;
+  }
+  .hhh .por {
+    padding-top: 30px;
   }
 }/*# sourceMappingURL=main.css.map */
