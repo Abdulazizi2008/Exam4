@@ -27,3 +27,9 @@ function toggleBacktop() {
     backtop.style.bottom = "-50px";
   }
 }
+const header = document.querySelector("header");
+const menuBtn = document.querySelector(".menu");
+
+menuBtn.addEventListener("click", () => {
+  header.classList.toggle("open");
+});
