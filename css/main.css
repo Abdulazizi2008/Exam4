@@ -262,8 +262,11 @@ main {
 }
 
 .paw1 {
+  position: relative;
+}
+.paw1 svg {
   position: absolute;
-  top: 408px;
+  top: 45px;
   left: 585px;
 }
 
@@ -982,6 +985,19 @@ main {
   justify-content: space-around;
 }
 
+.dark {
+  background-color: black;
+}
+
+#dark-light {
+  border: none;
+  background: transparent;
+}
+
+.dark * {
+  color: white !important;
+}
+
 @media (max-width: 480px) {
   .nav-items {
     flex-direction: column;
@@ -1081,8 +1097,7 @@ main {
     flex-wrap: wrap;
   }
   .paw1 {
-    top: 1078px;
-    left: 175px;
+    display: none;
   }
   .part1 {
     max-width: 720px;

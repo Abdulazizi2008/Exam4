@@ -236,9 +236,12 @@ main {
   padding-top: 5px;
 }
 .paw1 {
-  position: absolute;
-  top: 408px;
-  left: 585px;
+  position: relative;
+  svg {
+    position: absolute;
+    top: 45px;
+    left: 585px;
+  }
 }
 .par8 {
   padding-top: 67px;
@@ -905,6 +908,16 @@ main {
   align-items: center;
   justify-content: space-around;
 }
+.dark {
+  background-color: black;
+}
+#dark-light {
+  border: none;
+  background: transparent;
+}
+.dark * {
+  color: white !important;
+}
 
 @media (max-width: 480px) {
   .nav-items {
@@ -1011,8 +1024,7 @@ main {
     flex-wrap: wrap;
   }
   .paw1 {
-    top: 1078px;
-    left: 175px;
+    display: none;
   }
   .part1 {
     max-width: 720px;
