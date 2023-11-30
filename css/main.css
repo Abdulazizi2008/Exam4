@@ -58,7 +58,6 @@ header {
 }
 
 nav {
-  padding: 16px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -703,6 +702,7 @@ main {
 }
 
 .cards4 {
+  padding-top: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -994,11 +994,297 @@ main {
   background: transparent;
 }
 
-.dark * {
-  color: white !important;
-}
-
 @media (max-width: 480px) {
+  .nav-items {
+    flex-direction: column;
+    gap: 24px;
+    position: fixed;
+    top: 104px;
+    left: -100%;
+    width: 100%;
+    height: calc(100vh - 104px);
+    background: #fff;
+    padding: 60px 0;
+    transition: all 0.3s ease-in-out;
+    z-index: 10;
+  }
+  .menu {
+    display: block;
+  }
+  .open .nav-items {
+    left: 0;
+  }
+  .open {
+    box-shadow: none;
+  }
+  .cards {
+    flex-wrap: wrap;
+  }
+  .cards3 {
+    flex-wrap: wrap;
+  }
+  .cards4 {
+    flex-wrap: wrap;
+  }
+  .par20 {
+    display: inline;
+  }
+  .cards2 {
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .par18 {
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .par14 {
+    margin-top: 50px;
+    display: inline;
+  }
+  .par8 {
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .par10 {
+    flex-wrap: wrap;
+  }
+  .hero {
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .d1 .par18 {
+    flex-wrap: wrap;
+  }
+  .nav-items {
+    flex-direction: column;
+    gap: 24px;
+    position: fixed;
+    top: 104px;
+    left: -100%;
+    width: 100%;
+    height: calc(100vh - 104px);
+    background: #fff;
+    padding: 60px 0;
+    transition: all 0.3s ease-in-out;
+    z-index: 10;
+  }
+  .menu {
+    display: block;
+    opacity: 10px;
+  }
+  .open .nav-items {
+    left: 0;
+  }
+  .open {
+    box-shadow: none;
+  }
+  .par6 {
+    gap: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .paw1 {
+    display: none;
+  }
+  .part1 {
+    max-width: 720px;
+    width: 100%;
+  }
+  .all {
+    padding-bottom: 150px;
+    justify-content: center;
+    align-items: center;
+  }
+  .cards5 {
+    flex-wrap: wrap;
+  }
+  .bigcard {
+    margin-left: 0;
+  }
+  .pp2 {
+    padding-left: 0;
+    padding-right: 0;
+    justify-content: center;
+    align-items: center;
+  }
+  .ma {
+    padding-left: 0;
+    justify-content: start;
+    align-items: start;
+  }
+  .all2 {
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .all2 .navitem3 {
+    padding-top: 20px;
+    padding-left: 0;
+  }
+  .footer {
+    flex-wrap: wrap;
+  }
+  .partx1 {
+    flex-wrap: wrap;
+  }
+  .hhh .por {
+    padding-top: 30px;
+  }
+}
+@media (max-width: 768px) {
+  .nav-items {
+    flex-direction: column;
+    gap: 24px;
+    position: fixed;
+    top: 104px;
+    left: -100%;
+    width: 100%;
+    height: calc(100vh - 104px);
+    background: #fff;
+    padding: 60px 0;
+    transition: all 0.3s ease-in-out;
+    z-index: 10;
+  }
+  .menu {
+    display: block;
+  }
+  .open .nav-items {
+    left: 0;
+  }
+  .open {
+    box-shadow: none;
+  }
+  .cards {
+    flex-wrap: wrap;
+  }
+  .cards3 {
+    flex-wrap: wrap;
+  }
+  .cards4 {
+    flex-wrap: wrap;
+  }
+  .par20 {
+    display: inline;
+  }
+  .cards2 {
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .par18 {
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .par14 {
+    margin-top: 50px;
+    display: inline;
+  }
+  .par8 {
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .par10 {
+    flex-wrap: wrap;
+  }
+  .hero {
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .d1 .par18 {
+    flex-wrap: wrap;
+  }
+  .nav-items {
+    flex-direction: column;
+    gap: 24px;
+    position: fixed;
+    top: 104px;
+    left: -100%;
+    width: 100%;
+    height: calc(100vh - 104px);
+    background: #fff;
+    padding: 60px 0;
+    transition: all 0.3s ease-in-out;
+    z-index: 10;
+  }
+  .menu {
+    display: block;
+    opacity: 10px;
+  }
+  .open .nav-items {
+    left: 0;
+  }
+  .open {
+    box-shadow: none;
+  }
+  .par6 {
+    gap: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .paw1 {
+    display: none;
+  }
+  .part1 {
+    max-width: 720px;
+    width: 100%;
+  }
+  .all {
+    padding-bottom: 150px;
+    justify-content: center;
+    align-items: center;
+  }
+  .cards5 {
+    flex-wrap: wrap;
+  }
+  .bigcard {
+    margin-left: 0;
+  }
+  .pp2 {
+    padding-left: 0;
+    padding-right: 0;
+    justify-content: center;
+    align-items: center;
+  }
+  .ma {
+    padding-left: 0;
+    justify-content: start;
+    align-items: start;
+  }
+  .all2 {
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .all2 .navitem3 {
+    padding-top: 20px;
+    padding-left: 0;
+  }
+  .footer {
+    flex-wrap: wrap;
+  }
+  .partx1 {
+    flex-wrap: wrap;
+  }
+  .hhh .por {
+    padding-top: 30px;
+  }
+}
+@media (max-width: 976px) {
   .nav-items {
     flex-direction: column;
     gap: 24px;
